@@ -40,6 +40,8 @@ namespace elprimo
             context.ClientServices.Add(NewClientService);
             var AddBtnWindow = new AddBtnWindow(context, NewClientService);
             AddBtnWindow.ShowDialog();
+            //апрар
+
         }
 
         private void BtnDeleteData_Click(object sender, RoutedEventArgs e)
